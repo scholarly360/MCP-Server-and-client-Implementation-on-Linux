@@ -39,3 +39,6 @@ touch mcp_client_explore.py
 
 # RUN  ::
 uv run mcp_client_explore.py /workspaces/vsc_dev_mcp_explore/mcp_server_explore/mcp_server_explore.py 
+
+# YouTube Video ::
+https://youtu.be/53HvVkybgW8
