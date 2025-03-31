@@ -1,0 +1,16 @@
+{
+	"name": "Python 3",
+	"build": { "dockerfile": "Dockerfile" },
+"postCreateCommand": "bash install-dependencies.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python",
+        "ms-toolsai.vscode-ai",
+        "ms-toolsai.jupyter",
+        "ms-vscode.vscode-node-azure-pack",
+    ]
+    }
+  },
+
+  "forwardPorts": []
+}
